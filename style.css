@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Centralizar e estilizar o cabeçalho */
+header {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ajuste para o logotipo */
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-size: 100px;
+}
+.Carros {
+    font-size: 50px;
+}
+
+
+/* Melhorar o menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Ajuste nas seções */
+section {
+    padding: 40px 0;
+}
+#carros {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+section h2 {
+    margin-left: 30px;
+}
+
+/* Ajuste para itens de veículos */
+.Secao-carros {
+    display: flex;
+    gap: 50px; /* Reduzi o gap entre os veículos */
+    justify-content: center;
+    padding: 20px;
+}
+
+.vehicle {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 30px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Aumentei a largura para ajustar ao tamanho da imagem */
+    border-radius: 10px;
+}
+
+.vehicle img {
+    width: 100%; /* Ajusta a imagem para ocupar toda a largura da div .vehicle */
+    height: 300px;
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+}
+
+.vehicle h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #FFFFFF;
+    text-align: left; /* Alinha o título à esquerda */
+    width: 100%; /* Garante que o texto ocupe toda a largura */
+}
+
+.vehicle p {
+    margin: 5px 0;
+    color: #666;
+    text-align: left; /* Alinha o texto à esquerda */
+    width: 100%; /* Garante que o texto ocupe toda a largura */
+}
+
+/* Estilos para a seção de motos */
+/* Estilos para a seção de motos */
+#motos {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+}
+
+#motos h2 {
+    margin-left: 30px;
+}
+
+/* Novo contêiner para alinhar as motos lado a lado */
+.Secao-motos {
+    display: flex; /* Coloca as divs .moto lado a lado */
+    gap: 50px; /* Espaçamento entre as motos */
+    justify-content: center; /* Centraliza os itens */
+    padding: 20px;
+}
+
+.moto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Define uma largura fixa para cada item */
+}
+
+.moto img {
+    width: 100%; /* Ajusta a imagem para ocupar toda a largura da div .moto */
+    height: 200px;
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
+    margin-bottom: 20px;
+}
+
+.moto h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #1B1A55;
+    text-align: center;
+}
+
+.moto p {
+    margin: 5px 0;
+    color: #666;
+    text-align: left; /* Texto alinhado à esquerda */
+    width: 100%;
+}
+
+.site-footer {
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 30px 20px;
+    margin-top: 50px; /* Espaço superior */
+}
+
+.site-footer h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #ffffff; /* Cor para destacar o título */
+}
+
+.site-footer p {
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+.site-footer a {
+    color: #1E90FF; /* Cor do link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-footer a:hover {
+    text-decoration: underline; /* Sublinhar ao passar o mouse */
+}
+
+/* Centralizar a imagem de destaque no início */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-text {
+    width: 45%;
+    padding-left: 20px;
+}
